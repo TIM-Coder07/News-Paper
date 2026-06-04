@@ -1,12 +1,62 @@
-# React + Vite
+# 📰 News Portal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **News Portal Web Application** built with React and Tailwind CSS. This project provides real-time news browsing experience with categorized articles, smooth UI, and Firebase integration for scalable backend services.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+https://your-live-link.com
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- ⚛️ React 19
+- 🌐 React Router v7
+- 🎨 Tailwind CSS 4
+- 🧩 DaisyUI
+- ⚡ Vite + Tailwind Vite Plugin
+- 🔥 Firebase (Backend & Auth)
+- ⏱️ date-fns (Date formatting)
+- 🎬 React Fast Marquee
+- 🎯 React Icons
+
+---
+
+## ✨ Features
+
+### 🗞️ News System
+- Latest news feed display
+- Category-based news filtering
+- Trending news section
+
+### 🔍 User Experience
+- Smooth navigation using React Router
+- Responsive design for all devices
+- Fast loading UI
+
+### 🔥 Firebase Integration
+- Authentication support (optional setup)
+- Real-time data handling
+- Scalable backend structure
+
+### 🎨 UI/UX
+- Modern news portal layout
+- DaisyUI components
+- Animated news ticker (marquee)
+- Clean and readable typography
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── components/      # Reusable UI components
+├── pages/           # App pages (Home, News, Category, etc.)
+├── routes/          # React Router setup
+├── hooks/           # Custom hooks
+├── lib/             # Firebase config & utilities
+├── utils/           # Helper functions
+└── App.jsx

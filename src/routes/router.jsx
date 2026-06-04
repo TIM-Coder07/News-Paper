@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router";
+
 import HomeLayout from "../layouts/HomeLayout";
 import CategoryNews from "../pages/CategoryNews";
 import Home from "../pages/Home";
@@ -8,6 +9,7 @@ import AuthLayout from "../layouts/AuthLayout";
 import NewsDetails from "../components/NewsDetails";
 import PrivetRoute from "../PrivetRoute/PrivetRoute";
 import Loading from "../pages/Loading";
+import About from "../components/About";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <Home></Home>,
+      },
+      {
+        path: "/about",
+        element: <About></About>,
       },
       {
         path: "/category/:id",

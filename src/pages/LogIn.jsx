@@ -1,10 +1,10 @@
-import React, { use, useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
 
 const LogIn = () => {
   const [error, setError] = useState('')
-  const { signIn, setUser } = use(AuthContext);
+  const { signIn, setUser } = useContext(AuthContext);
   const location = useLocation();
   const naviget = useNavigate();
 
